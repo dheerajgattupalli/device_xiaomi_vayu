@@ -162,5 +162,12 @@ PRODUCT_PACKAGES += \
     libavservices_minijail_32 \
     vendor.display.config@2.0
 
+# Device Settings
+PRODUCT_PACKAGES += \
+    DeviceSettings
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/devicesettings/privapp-permissions-devicesettings.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-devicesettings.xml
+
 PRODUCT_BOOT_JARS += \
     WfdCommon
