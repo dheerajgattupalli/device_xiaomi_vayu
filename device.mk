@@ -86,7 +86,7 @@ PRODUCT_COPY_FILES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.light@2.0-service.vayu
+    android.hardware.lights-service.vayu
 
 # NFC
 PRODUCT_PACKAGES += \
@@ -152,10 +152,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_BOOT_JARS += \
     telephony-ext
-
-# VINTF
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/vintf/android.hardware.lights-qti.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/$(PRODUCT_TARGET_VNDK_VERSION)/etc/vintf/manifest/android.hardware.lights-qti.xml
 
 # WiFi Display
 PRODUCT_PACKAGES += \
