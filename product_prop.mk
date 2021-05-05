@@ -15,7 +15,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.config.media_vol_default=10 \
 	ro.config.media_vol_steps=8 \
-	ro.config.vc_call_vol_steps=8
+	ro.config.vc_call_vol_steps=8 \
+	ro.config.ringtone=Triton.ogg \
+	ro.config.notification_sound=Iapetus.ogg \
+	ro.config.alarm_alert=Oxygen.ogg
 
 # RIL
 PRODUCT_PROPERTY_OVERRIDES += \
