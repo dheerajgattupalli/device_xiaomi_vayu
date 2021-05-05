@@ -14,8 +14,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.config.media_vol_default=10 \
-	ro.config.media_vol_steps=150 \
-	ro.config.vc_call_vol_steps=11
+	ro.config.media_vol_steps=8 \
+	ro.config.vc_call_vol_steps=8
 
 # RIL
 PRODUCT_PROPERTY_OVERRIDES += \
