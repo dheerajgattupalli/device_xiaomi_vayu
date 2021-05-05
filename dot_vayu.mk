@@ -7,11 +7,11 @@
 # Inherit from vayu device
 $(call inherit-product, device/xiaomi/vayu/device.mk)
 
-# Inherit some common Fluid stuff.
-$(call inherit-product, vendor/fluid/config/common_full_phone.mk)
+# Inherit some common DotOS stuff.
+$(call inherit-product, vendor/dot/config/common.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := fluid_vayu
+PRODUCT_NAME := dot_vayu
 PRODUCT_DEVICE := vayu
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := POCO X3 Pro
